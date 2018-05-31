@@ -1,0 +1,60 @@
+#wrapper{
+	font-family: "Comic Sans MS";
+	width: 100%;
+	text-align: center;
+}
+.sectRow{
+	width: 80%;
+	height: 500px;
+	vertical-align: top;
+	display: inline-block;
+	border-top: 3px solid black;
+	background-attachment: fixed;
+	background: url('portal.jpg');
+	background-size: fill;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.gif{
+	width: 350px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 5px;
+	border-style: inset;
+	box-shadow: 2px 2px 2px black;
+}
+.rowBackground{
+	position: relative;
+	width: 100%;
+}
+.sectRow button{
+	vertical-align: top;
+	display: inline-flex;
+	margin-right: 25px;
+	box-shadow: 5px 5px 5px black;
+	background: navy;
+	color: limegreen;
+	font-weight: 800;
+	height: 50px;
+	border-radius: 20px;
+}
+#wrapper .sectRow p{
+	width: 75%;
+	font-size: 14px;
+	display: inline-block;
+	overflow: auto;
+	font-weight: 600;
+}
+h1{
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 60px;
+	display: inline-block;
+	text-align: center;
+	text-indent: 20px;
+	width: 100%;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}

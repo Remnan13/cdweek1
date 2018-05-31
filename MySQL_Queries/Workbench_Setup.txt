@@ -1,0 +1,10 @@
+SELECT *
+FROM video_games
+WHERE id > 1;
+
+INSERT INTO video_games (FPS, RPG)
+VALUES ('Destiny', 'Skyrim');
+
+UPDATE video_games SET FPS = 'Destiny 2', RPG = 'Dragon Age';
+
+DELETE FROM video_games WHERE Destiny 2;

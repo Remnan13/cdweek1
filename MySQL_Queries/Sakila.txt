@@ -1,0 +1,5 @@
+SELECT customer.first_name, customer.last_name, city.city, customer.email, address.address
+FROM customer, address, city
+JOIN customer ON address_id = customer.address_id
+JOIN LEFT customer.first_name
+????????
